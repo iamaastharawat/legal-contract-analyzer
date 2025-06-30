@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.card {
+  background: #ffffe0; /* light yellow */
+  padding: 4rem 3rem;
+  border-radius: 24px;
+  text-align: center;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+  width: 60vw;        /* reduced from 70vw */
+  max-width: 900px;   /* reduced from 1000px */
+  min-height: 60vh;   /* reduced from 70vh */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+/* Heading */
+.card h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+  color: #000;
+}
+
+/* Subtitle */
+.card p {
+  font-size: 1.3rem;
+  color: #333;
+  margin-bottom: 2.8rem;
+}
+
+/* Buttons container */
+.file-button-row {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+/* Hide native input */
+#fileInput {
+  display: none;
+}
+
+/* Blue rounded Choose File button */
+.choose-btn {
+  background-color: #93b5f7;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  width: 220px;
+  text-align: center;
+}
+
+/* Pink Upload button */
+.upload-btn {
+  background-color: #f7a9a8;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  width: 220px;
+}
+
+.upload-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Report Section */
+.report-box {
+  background-color: #1e1e1e; /* dark background for contrast */
+  color: #f8f8f2;           /* light text */
+  padding: 1rem;
+  margin-top: 1.5rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  max-height: 500px;
+  font-family: 'Courier New', monospace;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.report-box h3 {
+  margin-top: 0;
+  color: #ffea00; /* optional: yellow heading for contrast */
+}
+
+.report-box pre {
+  white-space: pre-wrap; /* wrap long lines */
+  word-wrap: break-word;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
