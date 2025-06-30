@@ -174,4 +174,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ```
 
-Let me know if you'd like to add badges (build status, license, etc.), a demo GIF, or sample contract files for testing!
+
