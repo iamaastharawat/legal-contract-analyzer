@@ -16,9 +16,10 @@ Calls AWS Comprehend to analyze key entities and phrases.
 Integrates with Google Gemini API to summarize legal clauses and risks.
 Finally, Lambda generates a detailed analysis report and saves it back to the S3 bucket for frontend retrieval.
 ## 📸 Project Thumbnail
-
+```
+![Flow Diagram](project_images/project_flowdiagram.png)
+```
 ---
-[]![Flow Diagram](project_images/project_flowdiagram.png)
 
 ## 🚀 Features
 
@@ -38,7 +39,6 @@ Finally, Lambda generates a detailed analysis report and saves it back to the S3
 ```
 User → React App → Express Backend → AWS S3 → 
 → Lambda → Textract → Comprehend → Google APMI → Gemini API
-![Flow Diagram](project_images/project_flowdiagram.png)
 
 ```
 
