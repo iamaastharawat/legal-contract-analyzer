@@ -15,7 +15,7 @@ Uses AWS Textract to extract all text from the PDF.
 Calls AWS Comprehend to analyze key entities and phrases.
 Integrates with Google Gemini API to summarize legal clauses and risks.
 Finally, Lambda generates a detailed analysis report and saves it back to the S3 bucket for frontend retrieval.
-![Project Thumbnail](project_images/project_thumbnail.png)
+![Thumbnail](https://raw.githubusercontent.com/iamaastharawat/legal-contract-analyzer/refs/heads/master/project_images/project_thumbnail.png)
 ![Legal Contract Analyzer Architecture](./path-to-your-image.png) 
 
 ---
