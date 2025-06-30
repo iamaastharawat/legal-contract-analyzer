@@ -17,9 +17,8 @@ Integrates with Google Gemini API to summarize legal clauses and risks.
 Finally, Lambda generates a detailed analysis report and saves it back to the S3 bucket for frontend retrieval.
 ## 📸 Project Thumbnail
 
-![Legal Contract Analyzer](./project_images/project_flowdiagram.png)
+![Flow Diagram](https://raw.githubusercontent.com/iamaastharawat/legal-contract-analyzer/refs/heads/master/project_images/project_flowdiagram.png)
 
-![Legal Contract Analyzer Architecture](./path-to-your-image.png) 
 
 ---
 
